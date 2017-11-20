@@ -1,4 +1,4 @@
-<?php include_once("trucksareus.html");?>
+<?php include_once("truck.html");?>
 
 
 
