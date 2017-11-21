@@ -1,5 +1,5 @@
 body{
-	background-color: #808080;
+	
 }
 
 ul {
@@ -8,7 +8,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-	position: fixed;
+	position: absolute;
  float: right;
 }
 
@@ -46,3 +46,36 @@ background-color: #808080;
 clear: both;
 
 }
+
+
+#title{
+font-size: 40px;
+text-align: center;
+background-color: black;
+color: white;
+
+position: relative;
+
+top: 70px;
+}
+#aboutpage{
+width: 400px;
+background-color: black;
+border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    color: white;
+top: 60px;
+float: left;
+position: relative;
+}
+#truck1{
+position: relative;
+width: 600px;
+float: right;
+padding: 25px;
+margin: 25px;
+top: 40px;
+}
+
+
