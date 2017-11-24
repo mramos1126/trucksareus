@@ -1,6 +1,59 @@
-body{
+#home{
+margin: 200px;
 	
+
+position: relative;
+
 }
+
+
+.oval {
+	width: 200px;
+	height: 100px;
+	background: blue;
+	color: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	margin: 30px;
+ 	border-radius: 100px / 50px;
+font-size: 50PX;
+    text-align: center;
+    padding: 10px;
+top:20px;
+position: relative;
+}
+
+
+
+#headtitle{
+
+
+	color: black;
+background-color: white;
+display:inline;
+font-size: 100px;
+text-shadow: 0;
+mix-blend-mode: overlay;
+}
+
+
+.footer-copyright{
+text-align: center;
+background-color: #808080;
+color: white;
+clear: both;
+position:absolute;
+   bottom:0;
+   width:100%;
+}
+
+
+
+/* about*/
+#about{
+	min-height: 650px;
+}
+
 
 ul {
     list-style-type: none;
@@ -36,32 +89,21 @@ background-color: green;
 }
 #about{
 	background-color:blue;
+overflow: hidden;
 }
 #service{
 	background-color: red;
 }
-.footer-copyright{
-text-align: center;
-background-color: #808080;
-clear: both;
-
-}
 
 
-#title{
-font-size: 40px;
-text-align: center;
+
+
+.aboutpage{
+width: 600px;
+height: 400px;
 background-color: black;
-color: white;
 
-position: relative;
-
-top: 70px;
-}
-#aboutpage{
-width: 400px;
-background-color: black;
-border: 25px solid green;
+   font-size: 20px;
     padding: 25px;
     margin: 25px;
     color: white;
@@ -70,12 +112,26 @@ float: left;
 position: relative;
 }
 #truck1{
-position: relative;
-width: 600px;
+
+width: 560px;
+height: 350px;
 float: right;
 padding: 25px;
 margin: 25px;
-top: 40px;
-}
 
+}
+.champtitle{
+top: 60px;
+   width: 600px;
+   height: 400px;
+color: white;
+background-color: black;
+   position: relative;
+text-align: center;
+font-size: 25px;
+margin-left:auto;
+margin-right:auto;
+margin-top:25px;
+
+}
 
