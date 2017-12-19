@@ -1,3 +1,10 @@
+.jumbotron{
+
+background-repeat:no-repeat;"
+}
+
+
+
 #home{
 margin: 200px;
 	
@@ -7,21 +14,7 @@ position: relative;
 }
 
 
-.oval {
-	width: 200px;
-	height: 100px;
-	background: blue;
-	color: white;
-	-moz-border-radius: 100px / 50px;
-	-webkit-border-radius: 100px / 50px;
-	margin: 30px;
- 	border-radius: 100px / 50px;
-font-size: 50PX;
-    text-align: center;
-    padding: 10px;
-top:20px;
-position: relative;
-}
+
 
 
 
@@ -41,90 +34,66 @@ mix-blend-mode: overlay;
 text-align: center;
 background-color: #808080;
 color: white;
-clear: both;
-
+position:absolute;
    bottom:0;
    width:100%;
+   height:40px;   /* Height of the footer */
+
 }
 
+.intro{
+background-image: url("assets/images/canales2.jpg");
+  text-align: center;
+margin-top: 10px;
+
+}
 
 
 /* about*/
-#about{
-	min-height: 650px;
-}
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-	position: absolute;
- float: right;
-}
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-#contact{
-background-color: green;
-}
-#about{
-	background-color:blue;
-overflow: hidden;
-}
-#service{
-	background-color: red;
-}
+ 
 
 
 
 
 .aboutpage{
-width: 600px;
-height: 400px;
+margin-left:auto;
+margin-right:auto;
+height: 90%;
 background-color: black;
-
-
-
+ line-height: 1.4em;
+ width: 90%;
+  max-width: 960px;
+text-align: center;
    font-size: 20px;
     padding: 25px;
-    margin: 25px;
-    color: white;
+        color: white;
 top: 40px;
-float: left;
+
 position: relative;
+opacity: 0.5;
+    filter: alpha(opacity=50)
+
 }
+
+
+
+
 #truck1{
 
-width: 560px;
-height: 350px;
-float: right;
-padding: 25px;
-margin: 25px;
 
+height: 300px;
+width: 75%;
+padding: 25px;
+margin-bottom: 20px;
+ 
+  
 }
 .champtitle{
 top: 60px;
-   width: 600px;
+  
    height: 350px;
 color: white;
 background-color: black;
@@ -134,13 +103,13 @@ font-size: 25px;
 margin-left:auto;
 margin-right:auto;
 margin-top:25px;
-
+ margin-bottom: 25px;
+ width: 50%;
+  
 }
 
 /** service **/
-ul.b {
-    list-style-type: square;
-}
+
 #trucks{
 width: 500px;
 height: 300px;
@@ -150,10 +119,41 @@ position: relative;
 margin : 43px;
 }
 .contacts{
-width: 300px;
-height: 200px;
-top: 20px;
-margin-left: 40px;
-background-color: black;
-color:white;
+height: 90%;
+background-color: blue;
+ line-height: 1.4em;
+ width: 60%;
+  max-width: 960px;
+text-align: center;
+   font-size: 20px;
+    padding: 25px;
+    margin: 25px;
+    color: white;
+
+margin-top: 50px;
+margin-left:auto;
+margin-right:auto;
+opacity: 0.5;
+    filter: alpha(opacity=50)
 position: relative;
+}
+.services{
+height: 90%;
+background-color: red;
+ line-height: 1.4em;
+ width: 60%;
+  max-width: 960px;
+text-align: center;
+   font-size: 20px;
+    padding: 25px;
+    margin: 25px;
+    color: white;
+
+margin-top: 50px;
+margin-left:auto;
+margin-right:auto;
+opacity: 0.5;
+    filter: alpha(opacity=50);
+position:relative;
+
+}
