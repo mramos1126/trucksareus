@@ -4,15 +4,20 @@
 <title>Canales Trucking</title>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
 <script type="text/javascript">
-//	document.getElementById("change").onclick = function(){
-	
-	//document.getElementById("test1").innerHTML = "Bye World";
-	//alert("test")
-//	}
+
 $(document).ready(function() {
     $("#change").click(function(){
- document.getElementById("test").innerHTML = "Bye there";	
-	document.getElementById("test1").innerHTML = "Bye World";
+ document.getElementById("test").innerHTML = "hola";	
+	document.getElementById("test1").innerHTML = "como esta?";
+   
+
+
+    }); 
+
+
+ $("#revert").click(function(){
+ document.getElementById("test").innerHTML = "hi";	
+	document.getElementById("test1").innerHTML = "how are you?";
    
 
 
@@ -24,7 +29,8 @@ $(document).ready(function() {
 </script>
 
 <body>
-<button id ="change">change words</button>
+<button id ="change">spanish</button>
+<button id ="revert">english</button>
 <div id = "test">Hi there</div>
 <div id = "test1">Hello World</div>
 
