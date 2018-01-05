@@ -1,6 +1,16 @@
-.jumbotron{
 
+body{
+  height: 100%;
+margin: 0;
+background-color: black;
+}
+
+.jumbotron{
+text-align: center;
 background-repeat:no-repeat;"
+
+position: relative;
+max-width: 100%
 }
 
 ul {
@@ -31,13 +41,15 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
+
+
+#about{
+
+  top: -25px;
+  position: relative;
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }
-
-
 
 #home{
 margin: 200px;
@@ -47,7 +59,14 @@ position: relative;
 
 }
 
+#service{
+background-repeat: no-repeat;
+background-size: 100% 100%;
+top: -45px;
+position: relative;
+height: 1000px;
 
+}
 
 
 
@@ -63,21 +82,11 @@ text-shadow: 0;
 mix-blend-mode: overlay;
 }
 
-
-.footer-copyright{
+#footernote {
+  
 text-align: center;
-background-color: #808080;
 color: white;
-position:absolute;
-   bottom:0;
-   width:100%;
-   height:40px;   /* Height of the footer */
-
-}
-
-
-
-
+  }
 /* about*/
 
 
@@ -93,23 +102,28 @@ position:absolute;
 .aboutpage{
 margin-left:auto;
 margin-right:auto;
-height: 90%;
+height: 75%;
 background-color: black;
  line-height: 1.4em;
- width: 90%;
-  max-width: 960px;
+ width: 70%;
+  top: 80px;
 text-align: center;
    font-size: 20px;
     padding: 25px;
         color: white;
-        margin-top: : 10px;
+       position: relative;
 
 
+opacity: 0.8;
+    filter: alpha(opacity=50);
    
 border-style: ridge;
 
 }
+.aboutpage img{
+opacity: 1;
 
+}
 
 
 
@@ -153,7 +167,7 @@ margin : 43px;
 }
 .contacts{
 height: 90%;
-background-color: blue;
+background-color: #404040;
  line-height: 1.4em;
  width: 60%;
   max-width: 960px;
@@ -162,18 +176,19 @@ text-align: center;
     padding: 25px;
     margin: 25px;
     color: white;
-
+margin-bottom: : 50px;
 margin-top: 50px;
 margin-left:auto;
 margin-right:auto;
-opacity: 0.5;
+opacity: 0.6;
     filter: alpha(opacity=50);
     border-style: ridge;
 position: relative;
+top: 300px;
 }
 .services{
-height: 80%;
-background-color: red;
+
+background-color: #404040;
  line-height: 1.4em;
  width: 60%;
   max-width: 960px;
@@ -183,11 +198,39 @@ text-align: center;
     margin: 25px;
     color: white;
 border-style: ridge;
-margin-top: 50px;
+top: 150px;
 margin-left:auto;
 margin-right:auto;
-opacity: 0.5;
+opacity: 0.6;
     filter: alpha(opacity=50);
 position:relative;
+
+}
+
+
+#me {
+float: left;
+  height: 300px;
+  width: 250px;
+  border-style: inset;
+ border-color: white;
+  margin-left:auto;
+margin-right:auto;
+background-color: rgba(0,0,255,0.5);
+
+   }
+
+
+
+.nav{
+position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+background-color: #404040;
+}
+#logo{
+width: 100%;
+height: 20px;
 
 }
